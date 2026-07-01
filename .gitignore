@@ -1,0 +1,44 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Conda
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Dataset
+data/
+
+# Models
+models/
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Logs
+logs/
+
+# Outputs
+outputs/
+
+# Environment Variables
+.env
+
+# macOS
+.DS_Store
