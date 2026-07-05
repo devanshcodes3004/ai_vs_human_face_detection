@@ -12,5 +12,3 @@ tqdm
 pyyaml
 keras-tuner
 transformers
-
--e .

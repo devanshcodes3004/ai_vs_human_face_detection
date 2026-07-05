@@ -1,0 +1,7 @@
+README.md
+setup.py
+ai_vs_human_face_detection.egg-info/PKG-INFO
+ai_vs_human_face_detection.egg-info/SOURCES.txt
+ai_vs_human_face_detection.egg-info/dependency_links.txt
+ai_vs_human_face_detection.egg-info/requires.txt
+ai_vs_human_face_detection.egg-info/top_level.txt
