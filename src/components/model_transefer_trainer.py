@@ -5,11 +5,14 @@ import tensorflow as tf
 
 from src.exception import CustomException
 from src.logger import logger
+from src.models import mobilenet
 from src.models.custom_cnn import CustomCNN
+from src.models.mobilenet import MobileNetV2Model
+
 from src.components.data_preprocessing import DataPreprocessing
 
 
-class ModelTrainer:
+class ModelTrainer1:
 
     def __init__(self):
 
@@ -18,7 +21,7 @@ class ModelTrainer:
         self.model_path = os.path.join(
             "artifacts",
             "models",
-            "custom_cnn.keras"
+            "mobilenet_v2.keras"
         )
 
     def compile_model(self, model):
@@ -54,11 +57,11 @@ class ModelTrainer:
             logger.info("Datasets loaded successfully.")
 
         
-            cnn = CustomCNN()
+            mobilenet = MobileNetV2Model()
 
-            model = cnn.build_model()
+            model = mobilenet.build_model()
 
-            logger.info("Custom CNN model created.")
+            logger.info("MobileNetV2 model created.")
 
             
             self.compile_model(model)

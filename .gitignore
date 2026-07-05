@@ -42,3 +42,8 @@ outputs/
 
 # macOS
 .DS_Store
+
+
+data/raw/
+artifacts/
+logs/
